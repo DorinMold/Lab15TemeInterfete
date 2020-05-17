@@ -22,16 +22,16 @@ namespace Lab15TemeInterfete
            });
 
             //aria dreptunghiului
-            GeometryUtils.Suprafata(4, 5, EnumGeom.Dreptunghi);
+            Console.WriteLine("Aria Dreptungiului cu laturile de 4 si 5 este: " + GeometryUtils.Suprafata(4, 5, EnumGeom.Dreptunghi)); 
 
             //aria cerc
-            GeometryUtils.Suprafata(4);
+            Console.WriteLine("Aria cercului cu raza de 4 este: " + GeometryUtils.Suprafata(4).ToString());
 
             //aria triunghi
-            GeometryUtils.Suprafata(3, 5, EnumGeom.Triunghi);
+            Console.WriteLine("Aria tringhiului cu baza de 3 si inaltime de 5 este: " + GeometryUtils.Suprafata(3, 5, EnumGeom.Triunghi));
 
             //aria trapez
-            GeometryUtils.Suprafata(3, 5, 7);
+            Console.WriteLine("Aria trapezului cu bazele de 3, 5 si inaltime de 7 este: " + GeometryUtils.Suprafata(3, 5, 7)); 
         }
     }
 }

@@ -16,6 +16,8 @@ namespace Lab15TemeInterfete
 
     interface IFormaGeometrica : IDeplasareAxaX, IDeplasareAxaY
     {
+  
         void ColectiePuncte(params StructPunct[] Puncte );
+
     }
 }
